@@ -3,7 +3,6 @@ from discord.ext import commands
 
 print(discord.__version__)
 print("----------------")
-print(" ")
 
 client = commands.Bot(command_prefix = ".")
 
