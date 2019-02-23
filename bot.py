@@ -7,17 +7,13 @@ print("----------------")
 
 client = commands.Bot(command_prefix = ".")
 
-
-
-#emoji("eggplant") """In on_message() function."""
-
 @client.event
 async def on_ready():
     print("Logged in as")
     print(client.user.name)
     print(client.user.id)
     print("----------------")
-    
+
 @client.event
 async def on_message(message):
     def emoji(smiley):
